@@ -87,12 +87,15 @@ WSGI_APPLICATION = 'shorturlproject.wsgi.application'
 #     }
 # }
 DATABASES = {
+    'default':{
+
     "ENGINE": "django.db.backends.postgresql",
     "NAME": "shorturl",
     "USER": "postgres",
     "PASSWORD":"root",
     "HOST": "POSTGRES_HOST",
     "PORT": 5432,
+    }
 }
 
 # Password validation
